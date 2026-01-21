@@ -6,8 +6,10 @@ This repository contains small projects and challenges created to practice and i
 
 ## Projects
 
-### Front-End Abstract(Level 1)
-This project was created to practice coding by working on templates. The design template was taken from [Frontend Practice](https://www.frontendpractice.com/), a website that offers free front-end challenges and templates to help developers improve their HTML, CSS, and JavaScript skills.
+### Front-End Abstract (Level 1)
+
+This project was created to practice coding by working on templates. The design template was taken from [Frontend Practice](https://www.frontendpractice.com/), a website that offers free front-end challenges and templates with three difficulty levels. This project is part of **Level 1**, which focuses on fundamental front-end skills using HTML, CSS, and JavaScript.
+
 
 ### Image Accordion
 A small project from [Coddy.tech](https://coddy.tech), which provides interactive coding exercises and front-end challenges for learning web development. This project focuses on creating an accordion effect with images using HTML and CSS.
