@@ -6,7 +6,7 @@ This repository contains small projects and challenges created to practice and i
 
 ## Projects
 
-### Front-End Abstract
+### Front-End Abstract(Level 1)
 This project was created to practice coding by working on templates. The design template was taken from [Frontend Practice](https://www.frontendpractice.com/), a website that offers free front-end challenges and templates to help developers improve their HTML, CSS, and JavaScript skills.
 
 ### Image Accordion
