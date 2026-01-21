@@ -6,16 +6,16 @@ This repository contains small projects and challenges created to practice and i
 
 ## Projects
 
-### [Front-End Abstract]
+### Front-End Abstract
 This project was created to practice coding by working on templates. The design template was taken from [Frontend Practice](https://www.frontendpractice.com/), a website that offers free front-end challenges and templates to help developers improve their HTML, CSS, and JavaScript skills.
 
-### [Image Accordion]
+### Image Accordion
 A small project from [Coddy.tech](https://coddy.tech), which provides interactive coding exercises and front-end challenges for learning web development. This project focuses on creating an accordion effect with images using HTML and CSS.
 
-### [Solar Eclipse]
+### Solar Eclipse
 Another challenge from [Coddy.tech](https://coddy.tech), designed to practice layout and styling with HTML and CSS by replicating a solar eclipse animation/graphic.
 
-### [A Valentine’s Day Card]
+### A Valentine’s Day Card
 This is my own original idea, created to practice HTML and CSS by designing a themed card for Valentine’s Day.
 
 ---
