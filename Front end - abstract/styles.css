@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Основни настройки */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f5f5;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    padding: 40px;
+    justify-content: space-between;
+    flex: 1;
+    background-color: #fff;
+}
+
+/* Това е css правилото за Header */
+.site-header {
+    display: flex;
+    /*Превръща <header> в flex контейнер.*/
+    justify-content: space-between;
+    /*Мести бутоните в дясно*/
+    align-items: center;
+    background-color: black;
+    padding: 15px 30px;
+}
+
+.logo-text{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-text img{
+    height: 40px;
+    width: auto;
+}
+
+.logo-text span{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+.header-buttons {
+    display: flex;
+    gap: 10px;
+    /* разстояние между бутоните */
+}
+
+#signIn {
+    border-radius: 6px;
+    border: none;
+    background-color: #4C5FD5;
+    color: white;
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+#request {
+    border-radius: 6px;
+    /*леко заоблени ъгли*/
+    border-style: solid;
+    /*Прави border плътна,непрекъсната линя*/
+    border-width: 1px;
+    /*Определя дебелината на border*/
+    border-color: white;
+    /*Прави цвета на border бял*/
+    background-color: #222222;
+    color: white;
+    padding: 8px 16px;
+    /*добавя вътрешно пространство вътре в елемента, 8px → отгоре и отдолу 16px → отляво и отдясно */
+    font-size: 14px;
+    /*Определя размера на текста в бутона -> 14px означава 14 пиксела височина на буквите*/
+}
+
+#help {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 33vh;
+    background-color: #dadbf1;
+    gap: 10px;
+}
+
+#help-text {
+    font-size: 50px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.search-box {
+    display: flex;
+    width: 550px;
+    max-width: 80%;
+    border: 1px solid #000;
+    border-radius: 3px;
+    /* леко заобляне на всички ъгли */
+    background-color: #fff;
+    overflow: hidden;
+    /* гарантира, че ъглите се подрязват правилно */
+}
+
+.search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 0;
+    /* махаме отделното заобляне */
+}
+
+.search-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    /* центрира стрелката вертикално */
+    border-radius: 0;
+    /* махаме отделното заобляне */
+}
+
+/*Learn More buttons*/
+
+.help-item{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    width: 45%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.help-icon{
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    object-fit: contain;
+}
+
+.help-info h2{
+    margin: 0 0 10px 0;
+    font-size: 22px;
+
+}
+
+.help-info p {
+    margin: 0 0 15px 0;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.learn-more-btn {
+    display: flex; /* подрежда текста и стрелката хоризонтално */
+    align-items: center;
+    gap: 6px;
+    padding: 8px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    background-color: transparent;
+    color: #4C5FD5;
+    cursor: pointer;
+    
+}
+
+learn-more-btn:hover {
+    text-decoration: underline;
+}
+
+.arrow-icon {
+    width: 20px;
+    height: 20px;
+}
+
+/*Footer*/
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    line-height: 1.5;
+}
+
+footer a {
+    text-decoration: none;
+    color: #eee;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.ft-main {
+    padding: 1.25rem 1.875rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ft-main-item {
+    padding: 1.25rem;
+    min-width: 12.5rem;
+}
+
+.ft-title {
+    color: #fff;
+    font-family: "Merriweather", serif;
+    font-size: 1.375rem;
+    padding-bottom: 0.625rem;
+
+}
+
+.ft-legal {
+    display: flex;
+    flex-direction: column;  /* вертикално подреждане: логото над текста */
+    align-items: flex-start; /* подравняване вляво */
+    gap: 5px;                /* малко разстояние между логото и текста */
+    padding: 20px;
+    background-color: #000;
+    color: #ccc;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;      /* вертикално подреждане */
+    align-items: flex-end;     /* логото и текстът подравнени вляво */
+    gap: 5px;
+    color: #ccc;
+}
+
+
+.ft-logo {
+    width: 50px;               /* ширина на логото */
+    height: auto;               /* запазва пропорциите */
+}
+
+.ft-legal p {
+    margin: 0;               /* премахва стандартния margin на параграфа */
+    line-height: 1.5;        /* разстояние между редовете */
+}
